@@ -1,0 +1,229 @@
+19:36:49 **** Rebuild of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:23:14: warning: implicit declaration of function 'sumaConLimite' [-Wimplicit-function-declaration]
+   23 |  resultado = sumaConLimite(num1,num2);
+      |              ^~~~~~~~~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Clase3.o: in function `main':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase3\Debug/../src/Clase3.c:23: undefined reference to `sumaConLimite'
+collect2.exe: error: ld returned 1 exit status
+19:37:35 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:23:14: warning: implicit declaration of function 'sumarConLimite' [-Wimplicit-function-declaration]
+   23 |  resultado = sumarConLimite(num1,num2);
+      |              ^~~~~~~~~~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+Info: Nothing to build for Clase3
+Info: Nothing to build for Clase3
+19:43:54 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+19:44:10 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c:31:1: error: expected identifier or '(' before '{' token
+   31 | {
+      | ^
+19:45:27 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+Info: Nothing to build for Clase3
+20:07:25 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:24:6: warning: unused variable 'resultado' [-Wunused-variable]
+   24 |  int resultado;
+      |      ^~~~~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:08:11 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:08:39 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:23:7: warning: unused variable 'operacion' [-Wunused-variable]
+   23 |  char operacion;
+      |       ^~~~~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:12:08 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:24:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   24 |  int resultado;
+      |      ^~~~~~~~~
+..\src\Clase3.c:30:2: warning: 'operacion' is used uninitialized in this function [-Wuninitialized]
+   30 |  switch (operacion) {
+      |  ^~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:13:01 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:24:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   24 |  int resultado;
+      |      ^~~~~~~~~
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:13:48 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:15:52 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:16:16 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+Info: Nothing to build for Clase3
+Info: Nothing to build for Clase3
+20:17:52 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+Info: Nothing to build for Clase3
+Info: Nothing to build for Clase3
+20:19:35 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:20:03 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:20:43 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:22:09 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:23:09 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:51:20: error: lvalue required as left operand of assignment
+   51 |   (float)resultado = dividir(num1,num2);
+      |                    ^
+20:23:47 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:51:21: error: lvalue required as left operand of assignment
+   51 |   (float) resultado = dividir(num1,num2);
+      |                     ^
+20:24:31 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:25:04 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:51:21: error: lvalue required as left operand of assignment
+   51 |   (float) resultado = dividir(num1,num2);
+      |                     ^
+20:25:44 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:56:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   56 |  printf("El resultado es: %d", resultado);
+      |                           ~^   ~~~~~~~~~
+      |                            |   |
+      |                            int double
+      |                           %f
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:26:52 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:51:13: error: expected expression before 'float'
+   51 |   resultado(float)= dividir(num1,num2);
+      |             ^~~~~
+..\src\Clase3.c:51:3: error: called object 'resultado' is not a function or function pointer
+   51 |   resultado(float)= dividir(num1,num2);
+      |   ^~~~~~~~~
+..\src\Clase3.c:26:6: note: declared here
+   26 |  int resultado;
+      |      ^~~~~~~~~
+20:27:10 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:28:28 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:28:51 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:31:18 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:49:16 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:59:29: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   59 |   printf("El resultado es: %d", (float) resultado);
+      |                            ~^   ~~~~~~~~~~~~~~~~~
+      |                             |   |
+      |                             int double
+      |                            %f
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:52:38 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:53:32 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:56:24 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+20:56:47 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+..\src\Clase3.c: In function 'main':
+..\src\Clase3.c:29:16: error: expected ';' before 'scanf'
+   29 |  fflush (stdin)
+      |                ^
+      |                ;
+   30 |  scanf("%d", &num1);
+      |  ~~~~~          
+20:57:02 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+21:03:10 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+21:11:28 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+21:11:51 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+21:13:05 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 

@@ -1,0 +1,7 @@
+21:13:05 **** Incremental Build of configuration Debug for project Clase3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3.o" "..\\src\\Clase3.c" 
+gcc -o Clase3.exe "src\\Clase3.o" 
+
+21:13:06 Build Finished. 0 errors, 0 warnings. (took 1s.357ms)
+
