@@ -617,3 +617,1204 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase4.o" "..\\src\\Clase4.c"
       |         ^~~~~~~~~
 gcc -o Clase4.exe "src\\Clase4.o" "src\\utn.o" 
 Info: Nothing to build for Clase4
+Info: Nothing to build for Clase4
+18:43:33 **** Rebuild of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:11: warning: unused variable 'resultadoFloat' [-Wunused-variable]
+   20 |     float resultadoFloat;
+      |           ^~~~~~~~~~~~~~
+..\src\Clase5.c:18:9: warning: unused variable 'resultado' [-Wunused-variable]
+   18 |     int resultado;
+      |         ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+18:46:51 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c:13:10: fatal error: ../Clase4/utn.h: No such file or directory
+   13 | #include "../Clase4/utn.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+18:47:02 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c:13:10: fatal error: ..\Clase4\utn.h: No such file or directory
+   13 | #include "..\Clase4\utn.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+18:47:11 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:11: warning: unused variable 'resultadoFloat' [-Wunused-variable]
+   20 |     float resultadoFloat;
+      |           ^~~~~~~~~~~~~~
+..\src\Clase5.c:18:9: warning: unused variable 'resultado' [-Wunused-variable]
+   18 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:31:09 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:18:9: warning: unused variable 'resultado' [-Wunused-variable]
+   18 |     int resultado[7];
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+19:31:26 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:19:9: error: conflicting types for 'resultado'
+   19 |     int resultado[3];
+      |         ^~~~~~~~~
+..\src\Clase5.c:18:9: note: previous declaration of 'resultado' was here
+   18 |     int resultado[7];
+      |         ^~~~~~~~~
+..\src\Clase5.c:19:9: warning: unused variable 'resultado' [-Wunused-variable]
+   19 |     int resultado[3];
+      |         ^~~~~~~~~
+19:41:23 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   20 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:43:04 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   20 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:44:11 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   20 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+19:46:00 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   20 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:46:03 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:46:05 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:46:35 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:20:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   20 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:46:38 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:47:42 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   21 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:48:01 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   21 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:49:19 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   21 |     int resultado;
+      |         ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:50:10 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: variable 'resultadoFuncion' set but not used [-Wunused-but-set-variable]
+   21 |     int resultadoFuncion;
+      |         ^~~~~~~~~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:51:22 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:26:6: error: 'resultadoFuncion' undeclared (first use in this function)
+   26 |      resultadoFuncion = utn_getNumero(&edades[i], "Ingrese el numero ", "eso no es un numero\n ", 0, 100, 10);
+      |      ^~~~~~~~~~~~~~~~
+..\src\Clase5.c:26:6: note: each undeclared identifier is reported only once for each function it appears in
+19:51:38 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: variable 'resultadoFuncion' set but not used [-Wunused-but-set-variable]
+   21 |     int resultadoFuncion;
+      |         ^~~~~~~~~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:53:26 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:54:02 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:27:5: error: expected expression before '}' token
+   27 |     }
+      |     ^
+19:54:17 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:55:04 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:31:47: error: expected ';' before '}' token
+   31 |       printf ("Huston, tenemos un problema\n")
+      |                                               ^
+      |                                               ;
+   32 |      }
+      |      ~                                         
+19:55:09 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+19:55:19 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+19:56:37 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:35:15: error: 'i2' undeclared (first use in this function); did you mean 'i'?
+   35 |     for (i=0; i2<5; i++)
+      |               ^~
+      |               i
+..\src\Clase5.c:35:15: note: each undeclared identifier is reported only once for each function it appears in
+19:56:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+20:17:26 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+20:29:26 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:23:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'for'
+   23 |     for (i=0; i<cantidadEdades; i++)
+      |     ^~~
+..\src\Clase5.c:26:24: error: 'edades' undeclared (first use in this function)
+   26 |      if(utn_getNumero(&edades[i], "Ingrese el numero ", "eso no es un numero\n ", 0, 100, 0)==0)
+      |                        ^~~~~~
+..\src\Clase5.c:26:24: note: each undeclared identifier is reported only once for each function it appears in
+20:30:12 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+20:40:18 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: unused variable 'test' [-Wunused-variable]
+   21 |     int test[numero];
+      |         ^~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:40:23 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:46:09 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:9: warning: unused variable 'test' [-Wunused-variable]
+   21 |     int test[numero];
+      |         ^~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:46:24 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:46:28 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:46:32 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+20:46:58 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+20:50:57 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:28:7: warning: statement with no effect [-Wunused-value]
+   28 |   edad[i];
+      |   ~~~~^~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+20:52:38 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+21:21:43 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:42:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   42 |     printf ("%d",edades);
+      |              ~^  ~~~~~~
+      |               |  |
+      |               |  int *
+      |               int
+      |              %n
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+21:22:01 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:42:15: warning: format '%i' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   42 |     printf ("%i",edades);
+      |              ~^  ~~~~~~
+      |               |  |
+      |               |  int *
+      |               int
+      |              %n
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+21:56:55 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'promediarArray':
+..\src\Clase5.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+..\src\Clase5.c:49: error: expected '{' at end of input
+   49 | }
+      | 
+..\src\Clase5.c:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+21:57:29 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'promediarArray':
+..\src\Clase5.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+..\src\Clase5.c:46: error: expected '{' at end of input
+   46 | }
+      | 
+..\src\Clase5.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+21:57:41 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'promediarArray':
+..\src\Clase5.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+..\src\Clase5.c:45:2: error: expected declaration specifiers before 'return'
+   45 |  return EXIT_SUCCESS;
+      |  ^~~~~~
+..\src\Clase5.c:46:1: error: expected declaration specifiers before '}' token
+   46 | }
+      | ^
+..\src\Clase5.c:46: error: expected '{' at end of input
+   46 | }
+      | 
+..\src\Clase5.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+21:58:01 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'promediarArray':
+..\src\Clase5.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+..\src\Clase5.c:46: error: expected '{' at end of input
+   46 | }
+      | 
+..\src\Clase5.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+21:58:02 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'promediarArray':
+..\src\Clase5.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+..\src\Clase5.c:46: error: expected '{' at end of input
+   46 | }
+      | 
+..\src\Clase5.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+21:58:23 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:21:11: warning: unused variable 'resultado' [-Wunused-variable]
+   21 |     float resultado;
+      |           ^~~~~~~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+21:58:29 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:43:24: error: 'promedio' undeclared (first use in this function)
+   43 |     if(promediarArray(&promedio, edades, CANTIDADEDADES)==0)
+      |                        ^~~~~~~~
+..\src\Clase5.c:43:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Clase5.c:21:11: warning: unused variable 'resultado' [-Wunused-variable]
+   21 |     float resultado;
+      |           ^~~~~~~~~
+21:58:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:00:19 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:01:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'promediarArray':
+..\src\utn.c:143:2: error: invalid operands to binary * (have 'int' and 'int *')
+  141 |  printf ("%d", suma)
+      |  ~~~~~~~~~~~~~~~~~~~
+      |  |
+      |  int
+  142 | 
+  143 |  *promedioResultado = suma/len;
+      |  ^
+22:02:10 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:02:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:09:01 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:45:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   45 |      printf ("el promedio es %d", resultado);
+      |                              ~^   ~~~~~~~~~
+      |                               |   |
+      |                               int double
+      |                              %f
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+22:09:12 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:13:06 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:14:13 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+22:27:30 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:27:34 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:27:36 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+03:57:46 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+03:58:11 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+03:58:44 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:58:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:58:53 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:00:33 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArray':
+..\src\utn.c:158:6: warning: unused variable 'swap' [-Wunused-variable]
+  158 |  int swap = 0;
+      |      ^~~~
+..\src\utn.c:157:6: warning: unused variable 'i' [-Wunused-variable]
+  157 |  int i;
+      |      ^
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:06:11 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:08:42 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:08:49 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+04:11:05 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:11:08 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:11:14 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:12:03 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+Info: Nothing to build for Clase5
+04:13:54 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArray':
+..\src\utn.c:159:6: warning: unused variable 'bufferTemp' [-Wunused-variable]
+  159 |  int bufferTemp;
+      |      ^~~~~~~~~~
+..\src\utn.c:158:6: warning: unused variable 'swap' [-Wunused-variable]
+  158 |  int swap = 0;
+      |      ^~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+04:15:49 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArray':
+..\src\utn.c:186:11: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  186 |  } while (swap = 0);
+      |           ^~~~
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+04:15:59 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+04:19:48 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:22:14 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:27:13 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:28:46 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:30:07 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:31:43 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:33:08 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:33:51 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:49:31 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:50:34 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+04:51:13 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:05:59 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:19:17 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:21:08 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:184:45: error: expected ';' before 'return'
+  184 |  printf ("[DEBUG]    contador: %d",contador)
+      |                                             ^
+      |                                             ;
+  185 |  return retorno;
+      |  ~~~~~~                                      
+..\src\utn.c:156:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  156 |  int retorno = -1;
+      |      ^~~~~~~
+..\src\utn.c:187:1: warning: control reaches end of non-void function [-Wreturn-type]
+  187 | }
+      | ^
+05:21:16 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:21:49 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:23:04 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:43:50 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:50:26: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   50 |   printf ("Se ordeno en %d\n");
+      |                         ~^
+      |                          |
+      |                          int
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:166:11: error: switch quantity not an integer
+  166 |   switch (tipoOrdenamiento)
+      |           ^~~~~~~~~~~~~~~~
+..\src\utn.c:169:3: error: case label does not reduce to an integer constant
+  169 |   case "ASC":
+      |   ^~~~
+..\src\utn.c:173:3: error: case label does not reduce to an integer constant
+  173 |   case "DESC":
+      |   ^~~~
+05:45:14 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+..\src\Clase5.c: In function 'main':
+..\src\Clase5.c:50:26: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   50 |   printf ("Se ordeno en %d\n");
+      |                         ~^
+      |                          |
+      |                          int
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:163:53: warning: comparison between pointer and integer
+  163 |  if (pArray != NULL && len >= 0 && tipoOrdenamiento != NULL)
+      |                                                     ^~
+..\src\utn.c:170:28: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  170 |    condicionOrden = (pArray[i] < pArray [i+1]);
+      |                            ^
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:45:44 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:51:55 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:163:53: warning: comparison between pointer and integer
+  163 |  if (pArray != NULL && len >= 0 && tipoOrdenamiento != NULL)
+      |                                                     ^~
+..\src\utn.c: In function 'printArrayInt':
+..\src\utn.c:218:54: error: expected ')' before 'i'
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                      ^
+      |                                                      )
+..\src\utn.c:218:37: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                    ~^
+      |                                     |
+      |                                     int
+..\src\utn.c:218:52: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+..\src\utn.c: At top level:
+..\src\utn.c:229:1: error: expected identifier or '(' before '}' token
+  229 | }
+      | ^
+05:52:56 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:163:53: warning: comparison between pointer and integer
+  163 |  if (pArray != NULL && len >= 0 && tipoOrdenamiento != NULL)
+      |                                                     ^~
+..\src\utn.c: In function 'printArrayInt':
+..\src\utn.c:218:54: error: expected ')' before 'i'
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                      ^
+      |                                                      )
+..\src\utn.c:218:37: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                    ~^
+      |                                     |
+      |                                     int
+..\src\utn.c:218:52: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+..\src\utn.c: At top level:
+..\src\utn.c:229:1: error: expected identifier or '(' before '}' token
+  229 | }
+      | ^
+05:53:02 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:163:53: warning: comparison between pointer and integer
+  163 |  if (pArray != NULL && len >= 0 && tipoOrdenamiento != NULL)
+      |                                                     ^~
+..\src\utn.c: In function 'printArrayInt':
+..\src\utn.c:218:54: error: expected ')' before 'i'
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                      ^
+      |                                                      )
+..\src\utn.c:218:37: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                    ~^
+      |                                     |
+      |                                     int
+..\src\utn.c:218:52: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  218 |    printf ("\n[DEBUG]    Posicion [%d] con valor: %d"i,pArray[i]);
+      |                                                   ~^
+      |                                                    |
+      |                                                    int
+..\src\utn.c: At top level:
+..\src\utn.c:229:1: error: expected identifier or '(' before '}' token
+  229 | }
+      | ^
+05:54:04 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:152:2: error: expected identifier or '(' before '/' token
+  152 | */
+      |  ^
+..\src\utn.c:206:2: error: expected identifier or '(' before '/' token
+  206 | */
+      |  ^
+..\src\utn.c:229:1: error: expected identifier or '(' before '}' token
+  229 | }
+      | ^
+05:54:35 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:229:1: error: expected identifier or '(' before '}' token
+  229 | }
+      | ^
+05:54:56 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:56:41 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:163:53: warning: comparison between pointer and integer
+  163 |  if (pArray != NULL && len >= 0 && tipoOrdenamiento != NULL)
+      |                                                     ^~
+..\src\utn.c:170:28: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  170 |    condicionOrden = (pArray[i] < pArray [i+1]);
+      |                            ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:57:49 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'ordenarArrayInt':
+..\src\utn.c:170:28: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  170 |    condicionOrden = (pArray[i] < pArray [i+1]);
+      |                            ^
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+05:58:37 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+05:59:45 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+06:04:46 **** Incremental Build of configuration Debug for project Clase5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase5.o" "..\\src\\Clase5.c" 
+gcc -o Clase5.exe "src\\Clase5.o" "src\\utn.o" 
+Info: Nothing to build for Clase5
+18:39:52 **** Rebuild of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+Info: Nothing to build for Clase6
+Info: Nothing to build for Clase6
+Info: Nothing to build for Clase6
+Info: Nothing to build for Clase6
+Info: Nothing to build for Clase6
+Info: Nothing to build for Clase6
+18:43:34 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:25: error: 'edades' undeclared (first use in this function)
+   21 |     if(ordenarArrayInt (edades, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~~
+..\src\Clase6.c:21:25: note: each undeclared identifier is reported only once for each function it appears in
+18:44:48 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:21: warning: excess elements in scalar initializer
+   21 |     int array = {35,2,6,7,2};
+      |                     ^
+..\src\Clase6.c:21:21: note: (near initialization for 'array')
+..\src\Clase6.c:21:23: warning: excess elements in scalar initializer
+   21 |     int array = {35,2,6,7,2};
+      |                       ^
+..\src\Clase6.c:21:23: note: (near initialization for 'array')
+..\src\Clase6.c:21:25: warning: excess elements in scalar initializer
+   21 |     int array = {35,2,6,7,2};
+      |                         ^
+..\src\Clase6.c:21:25: note: (near initialization for 'array')
+..\src\Clase6.c:21:27: warning: excess elements in scalar initializer
+   21 |     int array = {35,2,6,7,2};
+      |                           ^
+..\src\Clase6.c:21:27: note: (near initialization for 'array')
+..\src\Clase6.c:23:19: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   23 |     printArrayInt(array, CANTIDADEDADES);
+      |                   ^~~~~
+      |                   |
+      |                   int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+..\src\Clase6.c:25:25: warning: passing argument 1 of 'ordenarArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     if(ordenarArrayInt (array, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:26: note: expected 'int *' but argument is of type 'int'
+   17 | int ordenarArrayInt (int pArray[], int len, char tipoOrdenamiento);
+      |                      ~~~~^~~~~~~~
+..\src\Clase6.c:27:17: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   27 |   printArrayInt(array, CANTIDADEDADES);
+      |                 ^~~~~
+      |                 |
+      |                 int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:45:23 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:28: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,2};
+      |                            ^
+..\src\Clase6.c:21:28: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:30: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,2};
+      |                              ^
+..\src\Clase6.c:21:30: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:32: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,2};
+      |                                ^
+..\src\Clase6.c:21:32: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:34: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,2};
+      |                                  ^
+..\src\Clase6.c:21:34: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:23:19: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   23 |     printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                   ^~~~~~~~~~~~
+      |                   |
+      |                   int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+..\src\Clase6.c:25:25: warning: passing argument 1 of 'ordenarArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     if(ordenarArrayInt (arrayNumeros, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:26: note: expected 'int *' but argument is of type 'int'
+   17 | int ordenarArrayInt (int pArray[], int len, char tipoOrdenamiento);
+      |                      ~~~~^~~~~~~~
+..\src\Clase6.c:27:17: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   27 |   printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:47:04 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:24: error: expected expression before '[' token
+   21 |     int arrayNumeros = [35,2,6,7,2];
+      |                        ^
+..\src\Clase6.c:21:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   21 |     int arrayNumeros = [35,2,6,7,2];
+      |                           ^
+..\src\Clase6.c:21:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   21 |     int arrayNumeros = [35,2,6,7,2];
+      |                             ^
+..\src\Clase6.c:21:31: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   21 |     int arrayNumeros = [35,2,6,7,2];
+      |                               ^
+..\src\Clase6.c:21:33: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   21 |     int arrayNumeros = [35,2,6,7,2];
+      |                                 ^
+..\src\Clase6.c:23:19: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   23 |     printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                   ^~~~~~~~~~~~
+      |                   |
+      |                   int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+..\src\Clase6.c:25:25: warning: passing argument 1 of 'ordenarArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     if(ordenarArrayInt (arrayNumeros, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:26: note: expected 'int *' but argument is of type 'int'
+   17 | int ordenarArrayInt (int pArray[], int len, char tipoOrdenamiento);
+      |                      ~~~~^~~~~~~~
+..\src\Clase6.c:27:17: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   27 |   printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+18:47:39 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:28: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7};
+      |                            ^
+..\src\Clase6.c:21:28: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:30: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7};
+      |                              ^
+..\src\Clase6.c:21:30: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:32: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7};
+      |                                ^
+..\src\Clase6.c:21:32: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:23:19: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   23 |     printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                   ^~~~~~~~~~~~
+      |                   |
+      |                   int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+..\src\Clase6.c:25:25: warning: passing argument 1 of 'ordenarArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     if(ordenarArrayInt (arrayNumeros, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:26: note: expected 'int *' but argument is of type 'int'
+   17 | int ordenarArrayInt (int pArray[], int len, char tipoOrdenamiento);
+      |                      ~~~~^~~~~~~~
+..\src\Clase6.c:27:17: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   27 |   printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:48:04 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:21:28: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,8,54};
+      |                            ^
+..\src\Clase6.c:21:28: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:30: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,8,54};
+      |                              ^
+..\src\Clase6.c:21:30: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:32: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,8,54};
+      |                                ^
+..\src\Clase6.c:21:32: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:34: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,8,54};
+      |                                  ^
+..\src\Clase6.c:21:34: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:21:36: warning: excess elements in scalar initializer
+   21 |     int arrayNumeros = {35,2,6,7,8,54};
+      |                                    ^~
+..\src\Clase6.c:21:36: note: (near initialization for 'arrayNumeros')
+..\src\Clase6.c:23:19: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   23 |     printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                   ^~~~~~~~~~~~
+      |                   |
+      |                   int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+..\src\Clase6.c:25:25: warning: passing argument 1 of 'ordenarArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   25 |     if(ordenarArrayInt (arrayNumeros, CANTIDADEDADES, 'A')>0)
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:26: note: expected 'int *' but argument is of type 'int'
+   17 | int ordenarArrayInt (int pArray[], int len, char tipoOrdenamiento);
+      |                      ~~~~^~~~~~~~
+..\src\Clase6.c:27:17: warning: passing argument 1 of 'printArrayInt' makes pointer from integer without a cast [-Wint-conversion]
+   27 |   printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 int
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:18:24: note: expected 'int *' but argument is of type 'int'
+   18 | int printArrayInt (int pArray[], int len);
+      |                    ~~~~^~~~~~~~
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:48:31 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:49:40 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+Info: Nothing to build for Clase6
+18:50:02 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:51:34 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Clase6.o: in function `main':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:23: undefined reference to `printArrayInt'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:25: undefined reference to `ordenarArrayInt'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:27: undefined reference to `printArrayInt'
+collect2.exe: error: ld returned 1 exit status
+18:51:49 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Clase6.o: in function `main':
+D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:23: undefined reference to `printArrayInt'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:25: undefined reference to `ordenarArrayInt'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: D:\Dropbox\Personal\Programacion\Programacion1_Lab_1\workspace\Temp\Clase6\Debug/../src/Clase6.c:27: undefined reference to `printArrayInt'
+collect2.exe: error: ld returned 1 exit status
+18:52:20 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'main':
+..\src\Clase6.c:23:5: warning: implicit declaration of function 'utn_printArrayInt'; did you mean 'printArrayInt'? [-Wimplicit-function-declaration]
+   23 |     utn_printArrayInt(arrayNumeros, CANTIDADEDADES);
+      |     ^~~~~~~~~~~~~~~~~
+      |     printArrayInt
+..\src\Clase6.c:25:8: warning: implicit declaration of function 'utn_sortArrayInt' [-Wimplicit-function-declaration]
+   25 |     if(utn_sortArrayInt (arrayNumeros, CANTIDADEDADES, 'D')>0)
+      |        ^~~~~~~~~~~~~~~~
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:53:03 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+..\src\Clase6.c: In function 'utn_sortArrayInt':
+..\src\Clase6.c:18:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   18 | {
+      | ^
+In file included from ..\src\Clase6.c:13:
+..\src\utn.h:17:5: error: old-style parameter declarations in prototyped function definition
+   17 | int utn_sortArrayInt (int pArray[], int len, char tipoOrdenamiento)
+      |     ^~~~~~~~~~~~~~~~
+..\src\Clase6.c:35: error: expected '{' at end of input
+   35 | }
+      | 
+..\src\Clase6.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+18:53:20 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+Info: Nothing to build for Clase6
+18:53:38 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+Info: Nothing to build for Clase6
+18:56:28 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
+18:56:35 **** Incremental Build of configuration Debug for project Clase6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase6.o" "..\\src\\Clase6.c" 
+gcc -o Clase6.exe "src\\Clase6.o" "src\\utn.o" 
